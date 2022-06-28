@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T07:57:40.454Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="dUoxslZjUJswJigoRA6w" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-28T08:42:44.531Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="hXI_Dzld262dWM_R1wBO" version="20.0.3" type="github">
   <diagram id="Elubn8BKt5XZc2plE-IU" name="Page-1">
-    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4rczetXM9_UzUZh68Bba-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;startSize=6;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="LFSPI4-fzeLg2CQfC9Xw-3" target="4rczetXM9_UzUZh68Bba-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LFSPI4-fzeLg2CQfC9Xw-3" value="Central OPC UA Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="LFSPI4-fzeLg2CQfC9Xw-3" value="&lt;font color=&quot;#ff3333&quot;&gt;Central &lt;/font&gt;OPC UA Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="334" y="170" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4rczetXM9_UzUZh68Bba-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;startSize=6;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="LFSPI4-fzeLg2CQfC9Xw-4" target="LFSPI4-fzeLg2CQfC9Xw-3">
@@ -21,17 +21,17 @@
         <mxCell id="4rczetXM9_UzUZh68Bba-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;startSize=6;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="LFSPI4-fzeLg2CQfC9Xw-4" target="LFSPI4-fzeLg2CQfC9Xw-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LFSPI4-fzeLg2CQfC9Xw-4" value="Local OPC UA Server A" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="LFSPI4-fzeLg2CQfC9Xw-4" value="&lt;font color=&quot;#ff3333&quot;&gt;Local&lt;/font&gt; OPC UA Server A" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LFSPI4-fzeLg2CQfC9Xw-7" value="PLC" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4rczetXM9_UzUZh68Bba-4" value="3.PubSub" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="270" width="60" height="30" as="geometry" />
+        <mxCell id="4rczetXM9_UzUZh68Bba-4" value="&lt;font color=&quot;#0000ff&quot;&gt;3.PubSub UDP&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4rczetXM9_UzUZh68Bba-5" value="4.PubSub" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="414" y="120" width="60" height="30" as="geometry" />
+        <mxCell id="4rczetXM9_UzUZh68Bba-5" value="&lt;font color=&quot;#0000ff&quot;&gt;4.PubSub MQTT&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="120" width="106" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4rczetXM9_UzUZh68Bba-7" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="110" width="690" height="10" as="geometry" />
@@ -39,10 +39,10 @@
         <mxCell id="4rczetXM9_UzUZh68Bba-8" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="450" width="690" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="4rczetXM9_UzUZh68Bba-11" value="1. Create Address Space Model For PLC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4rczetXM9_UzUZh68Bba-11" value="&lt;font color=&quot;#0000ff&quot;&gt;1. Create Address Space Model For PLC tags&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="11" y="354" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4rczetXM9_UzUZh68Bba-12" value="2.Create copied Address Space Model From Local OPC UA Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4rczetXM9_UzUZh68Bba-12" value="&lt;font color=&quot;#0000ff&quot;&gt;2.Create copied Address Space Model From Local OPC UA Servers&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="510" y="190" width="140" height="45" as="geometry" />
         </mxCell>
         <mxCell id="4rczetXM9_UzUZh68Bba-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;startSize=6;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="4rczetXM9_UzUZh68Bba-14" target="4rczetXM9_UzUZh68Bba-15">
@@ -51,7 +51,7 @@
         <mxCell id="4rczetXM9_UzUZh68Bba-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;startSize=6;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="4rczetXM9_UzUZh68Bba-14" target="LFSPI4-fzeLg2CQfC9Xw-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4rczetXM9_UzUZh68Bba-14" value="Local OPC UA Server B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4rczetXM9_UzUZh68Bba-14" value="&lt;font color=&quot;#ff3333&quot;&gt;Local &lt;/font&gt;OPC UA Server B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4rczetXM9_UzUZh68Bba-15" value="PLC" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
@@ -63,13 +63,13 @@
         <mxCell id="4rczetXM9_UzUZh68Bba-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;startSize=6;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="4rczetXM9_UzUZh68Bba-18" target="LFSPI4-fzeLg2CQfC9Xw-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4rczetXM9_UzUZh68Bba-18" value="Local OPC UA Server C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4rczetXM9_UzUZh68Bba-18" value="&lt;font color=&quot;#ff3333&quot;&gt;Local &lt;/font&gt;OPC UA Server C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4rczetXM9_UzUZh68Bba-19" value="PLC" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4rczetXM9_UzUZh68Bba-22" value="External Applications" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4rczetXM9_UzUZh68Bba-22" value="External MQTT broker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="329" y="10" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
